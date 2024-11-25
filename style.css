@@ -22,7 +22,6 @@ body.dark-mode {
   --love-color: #fff;
 }
 
-/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -31,12 +30,11 @@ body.dark-mode {
 }
 
 body {
-  font-family: "Arial", sans-serif;
   background-color: var(--background-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 85vh;
   transition: background-color 0.3s;
 }
 
@@ -52,8 +50,12 @@ body {
   margin-top: 60px;
 }
 
-canvas#confettiCanvas {
-  /* Update the ID to match the HTML */
+input[type] {
+  color: var(--love-color);
+  background-color: var(--background-color);
+}
+
+canvas #confettiCanvas {
   position: absolute;
   top: 0;
   left: 0;
@@ -63,7 +65,8 @@ canvas#confettiCanvas {
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: var(--text-color);
 }
 
@@ -122,9 +125,9 @@ button:hover {
 .switch {
   position: relative;
   display: inline-block;
-  width: 59.5px; /* Increased size for better visibility */
+  width: 59.5px;
   height: 34px;
-  margin: 20px auto; /* Center the switch */
+  margin: 20px auto;
 }
 
 .switch input {
@@ -142,7 +145,7 @@ button:hover {
   bottom: 0;
   background-color: #ccc;
   transition: 0.4s;
-  border-radius: 34px; /* Adjusted for a smooth rounded look */
+  border-radius: 34px;
 }
 
 .slider:before {
@@ -157,32 +160,30 @@ button:hover {
   border-radius: 50%;
 }
 
-/* Checked state */
 input:checked + .slider {
-  background-color: #28a745; /* Green for light mode */
+  background-color: #28a745;
 }
 
 input:checked + .slider:before {
-  transform: translateX(26px); /* Adjusted for smooth sliding effect */
+  transform: translateX(26px);
 }
 
-/* Dark mode styling */
 body.dark-mode .slider {
-  background-color: #222; /* Blue for dark mode */
+  background-color: #222;
 }
 
 body.dark-mode input:checked + .slider:before {
-  background-color: #ccc; /* Darker blue when checked */
+  background-color: #ccc;
 }
 
 body.dark-mode input:checked + .slider:before {
-  background-color: #fff; /* White for contrast in dark mode */
+  background-color: #fff;
 }
 
 /* Disabled button styles */
 button:disabled {
-  background-color: #ccc; /* Light gray background */
-  color: #666; /* Darker gray text */
-  cursor: not-allowed; /* Change cursor to indicate it's disabled */
-  opacity: 0.6; /* Slightly transparent */
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  opacity: 0.6;
 }
