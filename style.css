@@ -3,8 +3,8 @@
   --background-color: #ccc;
   --container-bg-color: white;
   --text-color: #333;
-  --button-bg-color: #28a745;
-  --button-hover-bg-color: #218838;
+  --button-bg-color: #659b04;
+  --button-hover-bg-color: #507b00;
   --quit-button-bg-color: #dc3545;
   --quit-button-hover-bg-color: #c82333;
   --love-color: #000;
@@ -15,7 +15,7 @@ body.dark-mode {
   --background-color: #222;
   --container-bg-color: #333;
   --text-color: #f4f4f4;
-  --button-bg-color: #007bff;
+  --button-bg-color: #0070ba;
   --button-hover-bg-color: #0056b3;
   --quit-button-bg-color: #dc3545;
   --quit-button-hover-bg-color: #c82333;
