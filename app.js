@@ -1,12 +1,15 @@
-alert("How to Play the Number Guessing Game:\n\n" +
-  "1. Click on 'Enter a Random Max Number': Input any positive number to set the maximum range for the game.\n" +
-  "2. Click 'Start': This will generate a random number between 1 and the maximum number you entered.\n" +
-  "3. Make Your Guess: Enter your guess in the input field.\n" +
-  "4. Receive Hints: After each guess, you'll receive feedback indicating whether your guess is too low or too high.\n" +
-  "5. Win the Game: If you guess the correct number, you'll see a congratulatory message and confetti will be launched!\n" +
-  "6. Quit the Game: If you want to end the game, click the 'Quit' button, which will also allow you to start a new game later.\n" +
-  "7. Dark Mode: You can toggle dark mode on or off using the switch provided for a different visual experience.\n\n" +
-  "Good luck, and have fun guessing the generated number!");
+alert(
+  "🎯 Welcome to the Number Guessing Game!\n\n" +
+  "Here are the rules:\n" +
+  "1️⃣ Enter a maximum number, and a secret number will be randomly generated between 1 and your chosen number.\n" +
+  "2️⃣ Your task is to guess the secret number.\n" +
+  "3️⃣ After each guess, you'll get a hint:\n" +
+  "   🔼 'Too high!' if your guess is greater than the secret number.\n" +
+  "   🔽 'Too low!' if your guess is less than the secret number.\n" +
+  "4️⃣ Keep guessing until you find the correct number!\n\n" +
+  "💡 Tip: Try to guess strategically instead of randomly.\n\n" +
+  "Ready? Let’s play! 🎉"
+);
 
 // Game Logic
 const startBtn = document.getElementById("startBtn");
